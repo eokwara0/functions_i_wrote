@@ -18,12 +18,12 @@ int  main(int argc, char **argv)
 				}
 			if(argv[1][x] == ' ')
 			{
-				argv[1][x] = argv[1][x+1];
+				argv[1][x] = argv[1][x + 1];
 			}
 			else if (argv[1][x])
 			{
 				write(1, &argv[1][x], 1);
-				if (argv[1][x+1] == ' ')
+				if (argv[1][x + 1] == ' ')
 				{
 					break;
 				}
