@@ -15,6 +15,10 @@ void print_prime_numbers(int n)
     {
         ++x;
     }
+    else if (x == 3)
+    {
+        printf("%d ",x);
+    }
      else if(x%2 != 0 && x%3 != 0)
        {
         printf("%d ",x);
